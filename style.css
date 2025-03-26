@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: rgb(34,124,195);
+    background: linear-gradient(0deg, rgba(34,124,195,1) 14%, rgba(140,200,160,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#myAddBtn {
+    background-color: rgb(81, 223, 136);
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+#myAddBtn:active {
+    transform: scale(0.95); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+#clearBtn{
+    background-color: rgb(236, 112, 90);
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+#clearBtn:active{
+    transform: scale(0.95); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#wrapper{
+    width: 400px;
+    height: auto;
+    background: rgb(34,124,195);
+    background: linear-gradient(0deg, rgba(34,124,195,1) 14%, rgba(148,150,222,1) 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    box-shadow: 5px 10px 18px;
+}
+input {
+
+    height: 40px; 
+    padding: 5px; 
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid white; 
+    margin-top: 20px;
+    margin-right: 35px;
+}
+input:focus {
+    border-color: #007BFF; /* Changes border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a glow effect */
+}
+
+#countDiv{
+    display: inline-block;
+    width: 250px;
+    
+}
+
+#displayTaskDiv{
+    background-color: azure;
+    margin-top: 20px;
+}
+#task{
+    background-color: beige;
+}
+#infoDiv{
+    margin-top: 20px;
+}
+
